@@ -1,0 +1,110 @@
+.header{
+    background: #5BA4F7;
+    color: white;
+    padding-bottom: 15px;
+    overflow-x: hidden;
+    position: fixed;
+   width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#sitename{
+margin-bottom: 10px;font-size: 40px;font-family:monospace;margin-right: 10px;
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.button
+{
+    background-color: gray;
+    border: 1px;
+    border-radius: 10px;
+    border-color: chartreuse;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #D1C7C7;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    font-family: all;
+
+}
+
+.sidenav a:hover {
+    color: #000;
+    background: #D7E4F1;
+}
+#sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #D1C7C7;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    font-family: all;
+
+}
+
+#sidenav a:hover {
+    color: #000;
+    background: #D7E4F1;
+}
+#hover{
+    background: #D7E4F1;
+}
+
+.main {
+    margin-left: 245px;
+    margin-top: 81px; /* Same as the width of the sidenav */
+    font-size: 22px; /* Increased text to enable scrolling */
+    width: 791px;
+
+}
+@media only screen and (max-width: 320px) {
+    .header{
+    width: 100%;
+    } 
+    #sitename{
+    width:20%;
+    }
+    .container{
+        width: 100%;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

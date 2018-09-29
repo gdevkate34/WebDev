@@ -1,0 +1,98 @@
+.header{
+    background: #5BA4F7;
+    color: white;
+    padding-bottom: 15px;
+}
+.headerButton{
+   border: none;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px
+}
+
+#sitename{
+margin-bottom: 10px;font-size: 40px;font-family:monospace;margin-right: 10px;
+}
+.headerButton:hover
+{cursor: pointer;
+
+transform: scale(1.1);}
+
+
+.search{
+    border:none;
+    border-radius:3px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+    margin-left: 10px;
+}
+.search:hover{cursor: pointer;}
+.button
+{
+    background-color: gray;
+    border: 1px;
+    border-radius: 10px;
+    border-color: chartreuse;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}
+.form
+{
+    color: black;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 21px;
+    color: brown;
+    
+}
+
+.label
+{ float: left;
+    width: 20em; 
+    margin-right:-18em;
+    text-align: right; }
+    .input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container{
+    width:500px;margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header{
+    width: 100%;
+    }
+    .headerButton{
+    width: 15%;
+    }
+     .headerButton1{
+    width: 15%;
+    }
+    .input{
+    width: 100%;
+    }
+    
+    #sitename{
+    width:20%;
+    }
+   .container{
+    width: 90%;
+   }
+    
+}
